@@ -1,0 +1,22 @@
+
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["BETA", "EPSILON", "GAMMA"],
+    "conditions": {
+        "P": 101325,
+        "T":
+    [
+        700.15
+        
+    ]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["BETA", ["MG"], [0.384]], ["EPSILON", ["MG"], [0.434]], ["GAMMA", ["MG"], [0.482]]]
+    ],
+    "reference": "Czeppe T (2003)",
+    "bibtex": "Czeppe T , Zakulski W ,El?bieta Bielańska.Study of the thermal stability of phases in the Mg-Al system[J].Journal of Phase Equilibria, 2003, 24(3):249-254..",
+    "comment": "Eutectic Transformation",
+    "weight": 2
+}

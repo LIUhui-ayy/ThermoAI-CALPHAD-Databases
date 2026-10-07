@@ -1,0 +1,30 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["FCC_A1", "LIQUID", "HCP_A3"],
+    "conditions": {
+        "P": 101325,
+        "T": [
+            903.15, 878.15, 850.15, 820.15, 789.15, 748.15, 721.15,
+            727.15, 724.15, 720.15, 790.15, 863.15
+        ]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.058]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.107]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.162]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.216]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.270]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.322]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.381]]],
+        [["LIQUID", ["MG"], [0.584]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.625]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.721]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.816]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.909]], ["HCP_A3", ["MG"], [null]]]
+    ],
+    "reference": "Hanson (1920)",
+    "bibtex": "hanson1920",
+    "comment": "Combined data from multiple phase boundaries in the Al-Mg system"
+}

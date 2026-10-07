@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["LIQUID"],
+  "reference_state": {
+    "phases": ["LIQUID"],
+    "conditions": {
+      "P": 101325,
+      "T": 1067.15,
+      "X_AL": 0.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1067.15,
+    "X_AL": [0.83512, 0.78063, 0.57518, 0.38072, 0.18176]
+  },
+  "output": "ACR_MG",
+  "values": [[[0.08031, 0.14019, 0.40216, 0.58979, 0.79363]]],
+  "reference": "A. Schneider 1941",
+  "bibtex": "A. Schneider, E.K. Stoll, Metal vapor pressure. I. Vapor pressure of magnesium over aluminum_magnesium alloys, Z. Elektrochem. 47 (1941) 519_526."
+}

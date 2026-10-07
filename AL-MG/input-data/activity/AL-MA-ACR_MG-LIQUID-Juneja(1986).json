@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["LIQUID"],
+  "reference_state": {
+    "phases": ["LIQUID"],
+    "conditions": {
+      "P": 101325,
+      "T": 1100.15,
+      "X_AL": 0.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1100.15,
+    "X_AL": [0.8986, 0.79913, 0.6974, 0.59817, 0.49744, 0.39497, 0.19826, 0.29549, 0.09653]
+  },
+  "output": "ACR_MG",
+  "values": [[[0.07033, 0.15117, 0.24598, 0.34303, 0.43684, 0.56234, 0.79911, 0.69657, 0.90166]]],
+  "reference":"J.M. Juneja 1986",
+  "bibtex": "J.M. Juneja, K.P. Abraham, G.N.K. Iyengar, Thermodynamic properties of magnesium_aluminum system molten alloys, Scripta Met. 20 (1986) 177_180."
+}

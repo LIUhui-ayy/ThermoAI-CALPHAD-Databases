@@ -1,0 +1,33 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["GAMMA", "LIQUID", "HCP_A3"],
+    "conditions": {
+        "P": 101325,
+        "T": [
+            693.15, 564.15, 473.15,
+            880.15, 845.15, 806.15, 764.15, 731.15,
+            891.15, 858.25, 850.95, 821.85, 758.35, 710.35
+        ]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["GAMMA", ["MG"], [null]], ["HCP_A3", ["MG"], [0.897]]],
+        [["GAMMA", ["MG"], [null]], ["HCP_A3", ["MG"], [0.946]]],
+        [["GAMMA", ["MG"], [null]], ["HCP_A3", ["MG"], [0.967]]],
+        [["LIQUID", ["MG"], [null]], ["HCP_A3", ["MG"], [0.977]]],
+        [["LIQUID", ["MG"], [null]], ["HCP_A3", ["MG"], [0.9627]]],
+        [["LIQUID", ["MG"], [null]], ["HCP_A3", ["MG"], [0.9346]]],
+        [["LIQUID", ["MG"], [null]], ["HCP_A3", ["MG"], [0.915]]],
+        [["LIQUID", ["MG"], [null]], ["HCP_A3", ["MG"], [0.8945]]],
+        [["LIQUID", ["MG"], [0.9456]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.8909]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.8804]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.8327]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.747]], ["HCP_A3", ["MG"], [null]]],
+        [["LIQUID", ["MG"], [0.6995]], ["HCP_A3", ["MG"], [null]]]
+    ],
+    "reference": "Hume-Rothery (1938)",
+    "bibtex": "hume-rothery1938",
+    "comment": "Combined data from HCP_A3-GAMMA, HCP_A3-LIQUID and LIQUID-HCP_A3 phase boundaries in the Al-Mg system"
+}

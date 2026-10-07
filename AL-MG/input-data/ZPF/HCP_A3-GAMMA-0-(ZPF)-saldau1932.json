@@ -1,0 +1,20 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["HCP_A3", "GAMMA"],
+    "conditions": {
+        "P": 101325,
+        "T": [693.15, 673.15, 653.15, 613.15, 593.15, 573.15]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["HCP_A3", ["MG"], [0.893]], ["GAMMA", ["MG"], [null]]],
+        [["HCP_A3", ["MG"], [0.90]], ["GAMMA", ["MG"], [null]]],
+        [["HCP_A3", ["MG"], [0.91]], ["GAMMA", ["MG"], [null]]],
+        [["HCP_A3", ["MG"], [0.936]], ["GAMMA", ["MG"], [null]]],
+        [["HCP_A3", ["MG"], [0.936]], ["GAMMA", ["MG"], [null]]],
+        [["HCP_A3", ["MG"], [0.945]], ["GAMMA", ["MG"], [null]]]
+    ],
+    "reference": "Saldau (1932)",
+    "bibtex": "saldau1932"
+}

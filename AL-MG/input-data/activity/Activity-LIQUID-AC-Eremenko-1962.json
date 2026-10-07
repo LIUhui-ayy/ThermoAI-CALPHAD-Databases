@@ -1,0 +1,54 @@
+{
+  "components": [
+    "AL",
+    "MG",
+    "VA"
+  ],
+  "phases": [
+    "LIQUID"
+  ],
+  "reference_state": {
+    "phases": [
+    "LIQUID"
+    ],
+    "conditions": {
+      "P": 101325,
+      "T": 923,
+      "X_MG": 1.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 923,
+    "X_MG": [
+      0.10,
+      0.20,
+      0.30,
+      0.40,
+      0.50,
+      0.60,
+      0.70,
+      0.80,
+      0.90
+    ]
+  },
+  "output": "ACR_MG",
+  "values": [
+    [
+      [
+        0.07,
+        0.16,
+        0.26,
+        0.37,
+        0.49,
+        0.61,
+        0.73,
+        0.86,
+        0.96
+      ]
+    ]
+  ],
+  "reference": "Eremenko1962",
+  "bibtex": "Eremenko and Lukashenko, 1962",
+  "comment": "Experimental"
+}

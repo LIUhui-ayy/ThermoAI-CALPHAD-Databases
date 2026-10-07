@@ -1,0 +1,47 @@
+{
+	"components": ["AL", "MG", "VA"],
+	"phases": ["LIQUID"],
+	"solver": {
+		"mode": "manual",
+		"sublattice_site_ratios": [1],
+		"sublattice_occupancies": [
+			[[0.33066, 0.66934]],
+			[[0.30938, 0.69062]],
+			[[0.27074, 0.72926]],
+			[[0.17779, 0.82221]],
+			[[0.09756, 0.90244]],
+			[[0.06992, 0.93008]],
+			[[0.03763, 0.96237]],
+			[[0.02173, 0.97827]]
+		],
+		"sublattice_configurations": [
+			[["AL", "MG"]],
+			[["AL", "MG"]],
+			[["AL", "MG"]],
+			[["AL", "MG"]],
+			[["AL", "MG"]],
+			[["AL", "MG"]],
+			[["AL", "MG"]],
+			[["AL", "MG"]]
+		]
+	},
+	"conditions": {
+		"P": 101325,
+		"T": 943.15
+	},
+	"excluded_model_contributions": ["idmix", "mag"],
+	"output": "SM_MIX",
+	"values": [[[
+		1.66681475,
+		1.50552380,
+		1.33380720,
+		0.95848378,
+		0.58622672,
+		0.41696321,
+		0.25076607,
+		0.17042723
+	]]],
+	"reference": "R.F. Agarwal, F. Sommer, Calorimetric measurements of liquid Al-Mg alloys, Z. Metallkd. 82 (1991) 118_120",
+	"comment": "EST",
+  "tags": ["EST"]
+}

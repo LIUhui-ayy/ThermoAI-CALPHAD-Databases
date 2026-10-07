@@ -1,0 +1,30 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["HCP_A3"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_occupancies": [
+      [[0.091, 0.909], 1],
+      [[0.081, 0.919], 1],
+      [[0.049, 0.951], 1]
+    ],
+    "sublattice_configurations": [
+      [["AL", "MG"], "VA"],
+      [["AL", "MG"], "VA"],
+      [["AL", "MG"], "VA"]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 660
+  },
+  "output": "HM_MIX",
+  "values": [[[
+    -85,
+    -85,
+    -120
+  ]]],
+  "reference": "Brown, J.A., Pratt, J.N. The thermodynamic properties of solid Al_Mg alloys. Metall Trans 1, 2743_2750 (1970).",
+  "comment": "Data from Table of 660K"
+}

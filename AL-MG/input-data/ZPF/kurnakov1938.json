@@ -1,0 +1,44 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["LIQUID", "FCC_A1", "GAMMA", "HCP_A3"],
+  "conditions": {
+    "P": 101325,
+    "T": [
+      921.15, 906.15, 869.15, 850.15, 819.15, 788.15, 774.15, 747.15, 734.15, 728.45, 723.15,
+      722.95, 723.95, 730.75, 733.75, 733.85, 731.55, 718.65, 711.15,
+      711.15, 725.15, 774.15, 832.15, 864.15, 894.15
+    ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.033]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.055]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.131]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.164]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.217]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.270]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.302]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.343]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.353]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.364]]],
+    [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.374]]],
+    [["LIQUID", ["MG"], [0.425]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.456]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.516]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.554]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.564]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.606]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.67]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.70]], ["GAMMA", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.70]], ["HCP_A3", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.721]], ["HCP_A3", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.788]], ["HCP_A3", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.863]], ["HCP_A3", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.909]], ["HCP_A3", ["MG"], [null]]],
+    [["LIQUID", ["MG"], [0.955]], ["HCP_A3", ["MG"], [null]]]
+  ],
+  "reference": "Kurnakov (1938)",
+  "bibtex": "kurnakov1938",
+  "comment": "Combined data from Kurnakov 1938 publications on Al-Mg system"
+}

@@ -1,0 +1,17 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["HCP_A3", "GAMMA"],
+    "conditions": {
+        "P": 101325,
+        "T": [613.15, 573.15, 491.15]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+    [["GAMMA", ["MG"], [null]], ["HCP_A3", ["MG"], [0.925]]],
+    [["GAMMA", ["MG"], [null]], ["HCP_A3", ["MG"], [0.943]]],
+    [["GAMMA", ["MG"], [null]], ["HCP_A3", ["MG"], [0.969]]]
+    ],
+    "reference": "Schmid (1933)",
+    "bibtex": "schmid1933"
+}

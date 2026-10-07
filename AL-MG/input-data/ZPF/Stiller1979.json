@@ -1,0 +1,28 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["FCC_A1", "LIQUID"],
+    "conditions": {
+        "P": 101325,
+        "T": [
+            823.15, 793.15, 773.15, 758.15, 733.15,
+            823.15, 793.15, 773.15, 758.15, 733.15
+        ]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["FCC_A1", ["MG"], [0.079]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.108]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.131]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.146]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.161]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.217]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.274]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.301]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.317]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.352]]]
+    ],
+    "reference": "Stiller (1979)",
+    "bibtex": "stiller1979",
+    "comment": "Combined data from FCC_A1-LIQUID phase boundaries in the Al-Mg system"
+}

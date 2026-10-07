@@ -1,0 +1,46 @@
+{
+  "components": [
+    "AL",
+    "MG",
+    "VA"
+  ],
+  "phases": [
+    "LIQUID"
+  ],
+  "reference_state": {
+    "phases": [
+    "LIQUID"
+    ],
+    "conditions": {
+      "P": 101325,
+      "T": 917,
+      "X_MG": 1.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 917,
+    "X_MG": [
+      0.16,
+      0.21,
+      0.42,
+      0.62,
+      0.82
+    ]
+  },
+  "output": "ACR_MG",
+  "values": [
+    [
+      [
+        0.06,
+        0.11,
+        0.34,
+        0.59,
+        0.80
+      ]
+    ]
+  ],
+  "reference": "Scheider1941",
+  "bibtex": "Scheider and Stoll, 1941",
+  "comment": "Experimental"
+}

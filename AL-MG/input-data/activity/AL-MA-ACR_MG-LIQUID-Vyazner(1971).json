@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["LIQUID"],
+  "reference_state": {
+    "phases": ["LIQUID"],
+    "conditions": {
+      "P": 101325,
+      "T": 1080.15,
+      "X_AL": 0.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1080.15,
+    "X_AL": [0.92685, 0.82962, 0.64841, 0.53693, 0.39497, 0.19501, 0.10753]
+  },
+  "output": "ACR_MG",
+  "values": [[[0.05736, 0.12397, 0.2602, 0.37147, 0.54488, 0.79263, 0.88419]]],
+  "reference": "M.Y. Vyazner 1971",
+  "bibtex": "M.Y. Vyazner, A.G. Morachevski, A.Y. Taits, Thermodynamic properties of magnesium_aluminum system molten alloys, Zh. Prikl. Khim. 44 (1971) 722_726."
+}

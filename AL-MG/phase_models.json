@@ -1,0 +1,30 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "refdata": "SGTE91",
+  "phases": {
+    "LIQUID": {
+      "sublattice_model": [["AL", "MG"]],
+      "sublattice_site_ratios": [1]
+    },
+    "FCC_A1": {
+      "sublattice_model": [["AL", "MG"], ["VA"]],
+      "sublattice_site_ratios": [1, 1]
+    },
+    "HCP_A3": {
+      "sublattice_model": [["AL", "MG"], ["VA"]],
+      "sublattice_site_ratios": [1, 1]
+    },
+    "GAMMA": {
+      "sublattice_model": [["MG"], ["AL", "MG"], ["AL", "MG"]],
+      "sublattice_site_ratios": [5, 12, 12]
+    },
+    "BETA": {
+      "sublattice_model": [["AL"], ["MG"]],
+      "sublattice_site_ratios": [140, 89]
+    },
+    "EPSILON": {
+      "sublattice_model": [["AL"], ["MG"]],
+      "sublattice_site_ratios": [30, 23]
+    }
+  }
+}

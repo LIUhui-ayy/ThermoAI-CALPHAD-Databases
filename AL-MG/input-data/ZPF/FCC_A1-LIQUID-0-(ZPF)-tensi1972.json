@@ -1,0 +1,16 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["FCC_A1", "LIQUID"],
+    "conditions": {
+        "P": 101325,
+        "T": [894.15, 885.15]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["FCC_A1", ["MG"], [0.022]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.028]], ["LIQUID", ["MG"], [null]]]
+    ],
+    "reference": "Tensi (1972)",
+    "bibtex": "tensi1972"
+}

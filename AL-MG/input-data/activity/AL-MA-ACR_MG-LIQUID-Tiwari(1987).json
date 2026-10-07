@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["LIQUID"],
+  "reference_state": {
+    "phases": ["LIQUID"],
+    "conditions": {
+      "P": 101325,
+      "T": 1073.15,
+      "X_AL": 0.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1073.15,
+    "X_AL": [0.97484, 0.95209, 0.88436, 0.80463, 0.65816, 0.41121, 0.2485, 0.17626]
+  },
+  "output": "ACR_MG",
+  "values": [[[0.01469, 0.03665, 0.09004, 0.16763, 0.30486, 0.51868, 0.6332, 0.71728]]],
+  "reference": "B.L. Tiwari 1987",
+  "bibtex": "B.L. Tiwari, Thermodynamic properties of liquid aluminum_magnesium alloys measured by the emf method, Met. Trans. A 18 (1987) 1645_1651."
+}

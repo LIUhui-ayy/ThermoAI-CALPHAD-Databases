@@ -1,0 +1,34 @@
+system:
+  phase_models: phase_models.json
+  datasets: input-data
+  tags:
+    dft:
+      excluded_model_contributions: ['idmix', 'mag']
+    estimated-entropy:
+      excluded_model_contributions: ['idmix', 'mag']
+      weight: 0.1
+
+output:
+  output_db: Al-Mg-Initial.tdb
+  verbosity: 2
+  logfile: Initial.log
+
+generate_parameters:
+  ref_state: SGTE91
+  excess_model: linear
+  aicc_penalty_factor:
+    HCP_A3:
+      HM: 1.2
+      SM: 1.2
+    LIQUID:
+      HM: 1.0
+      SM: 1.3
+    # BETA:
+    #   HM: 1.0
+    #   SM: 1.0
+    # EPSILON:
+    #   HM: 1.0
+    #   SM: 1.0
+    FCC_A1:
+      HM: 0.5
+      SM: 0.5

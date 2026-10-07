@@ -1,0 +1,32 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["GAMMA"],
+  "solver":
+  {
+    "mode": "manual",
+    "sublattice_site_ratios": [5, 12, 12],
+    "sublattice_occupancies":
+    [
+      [1, 1, 1],
+      [1, 1, 1],
+      [1, 1, 1],
+      [1, 1, 1]
+    ],
+    "sublattice_configurations":
+    [
+			["MG", "MG", "AL"],
+			["MG", "AL", "AL"],
+			["MG", "MG", "MG"],
+			["MG", "AL", "MG"]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 300
+  },
+  "output": "SM_MIX",
+  "values": [[[-1.1997, 0.9333, 1.602, 2.0753]]],
+  "reference": "Yu Zhong, Mei Yang, Zi-Kui Liu, Contribution of first-principles energetics to Al–Mg thermodynamic modeling, Calphad, Volume 29, Issue 4, 2005, Pages 303-311",
+  "comment": "EST",
+  "tags": ["EST"]
+}

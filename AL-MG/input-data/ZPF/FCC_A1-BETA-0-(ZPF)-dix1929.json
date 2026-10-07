@@ -1,0 +1,19 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["FCC_A1", "BETA"],
+    "conditions": {
+        "P": 101325,
+        "T": [473.15, 523.15, 573.15, 623.15, 673.15]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["FCC_A1", ["MG"], [0.044]], ["BETA", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.0488]], ["BETA", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.071]], ["BETA", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.096]], ["BETA", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.126]], ["BETA", ["MG"], [null]]]
+    ],
+    "reference": "Dix (1929)",
+    "bibtex": "dix1929"
+}

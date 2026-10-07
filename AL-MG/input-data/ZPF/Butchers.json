@@ -1,0 +1,30 @@
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["FCC_A1", "LIQUID"],
+    "conditions": {
+        "P": 101325,
+        "T": [
+            867.15, 822.15, 781.15,
+            913.95, 891.95, 865.25, 864.55, 820.75, 764.55, 735.65, 728.75, 723.05
+        ]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["FCC_A1", ["MG"], [0.0440]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.0770]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [0.1100]], ["LIQUID", ["MG"], [null]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.0401]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.0857]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.1408]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.1437]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.2242]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.3173]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.3504]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.3659]]],
+        [["FCC_A1", ["MG"], [null]], ["LIQUID", ["MG"], [0.3740]]]
+    ],
+    "reference": "Butchers (1943)",
+    "bibtex": "butchers1943_1945",
+    "comment": "Combined data from FCC_A1-LIQUID phase boundaries in the Al-Mg system"
+}

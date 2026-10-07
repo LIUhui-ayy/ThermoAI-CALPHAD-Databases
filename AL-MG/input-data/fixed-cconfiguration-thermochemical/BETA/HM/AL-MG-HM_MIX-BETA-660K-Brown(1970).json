@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "MG", "VA"],
+  "phases": ["BETA"],
+  "solver": 
+  {
+    "mode": "manual",
+    "sublattice_site_ratios": [140, 89],
+    "sublattice_configurations": 
+      [["AL","MG"]]
+  },
+  "conditions": 
+  {
+    "P": 101325,
+    "T": 300
+  },
+  "output": "HM_FORM",
+  "values": [[[-3500]]],
+  "reference": "Brown, J.A., Pratt, J.N. The thermodynamic properties of solid Al_Mg alloys. Metall Trans 1, 2743_2750 (1970).",
+  "comment": "Data from Table of 660K",
+  "tags": ["dft"]
+}

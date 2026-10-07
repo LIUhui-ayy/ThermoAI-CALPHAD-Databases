@@ -1,0 +1,21 @@
+
+{
+    "components": ["AL", "MG", "VA"],
+    "phases": ["BETA", "EPSILON", "GAMMA"],
+    "conditions": {
+        "P": 101325,
+        "T":
+    [
+        523.15
+    ]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [["BETA", ["MG"], [0.384]], ["EPSILON", ["MG"], [0.434]], ["GAMMA", ["MG"], [0.536]]]
+    ],
+    "reference": "Liang P (1998)",
+    "bibtex": "Liang P , Tarfa T , Robinson J A ,et al.Experimental investigation and thermodynamic calculation of the Al-Mg-Zn system[J].Thermochimica Acta, 1998, 314(1):87-110.",
+    "comment": "Eutectoid Transformation",
+    "weight": 2
+}
