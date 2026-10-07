@@ -1,0 +1,16 @@
+{
+    "components": ["MG", "SI", "VA"],
+    "phases": ["LIQUID", "MG2SI", "HCP_A3"],
+    "conditions": {
+      "P": 101325,
+      "T": [911.0024]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+      [["HCP_A3", ["SI"], [0.000028]], ["LIQUID", ["SI"], [0.0115705]], ["MG2SI", ["SI"], [0.33448]]]
+    ],
+    "reference": "Gef1968",
+    "bibtex": "R. Geffken, E. Miller, Trans. TMS-AIME 242 (1968) 2323-2328.",
+    "comment": "LIQUID phase boundary with MG2SI in MG-Si system"
+  }

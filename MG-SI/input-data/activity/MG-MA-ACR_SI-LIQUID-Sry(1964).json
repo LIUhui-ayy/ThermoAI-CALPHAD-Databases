@@ -1,0 +1,32 @@
+{
+  "components": ["MG", "SI", "VA"],
+  "phases": ["LIQUID"],
+  "reference_state": {
+    "phases": ["LIQUID"],
+    "conditions": {
+      "P": 101325,
+      "T": 1350.15,
+      "X_MG": 0.0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1350.15,
+    "X_SI": [
+    0.10039,
+    0.20012,
+    0.30154,
+    0.39982,
+    0.50004
+    ]
+  },
+  "output": "ACR_MG",
+  "values": [[[
+    0.84912,
+    0.65972,
+    0.43944,
+    0.27924,
+    0.12916
+]]],
+  "reference": "I.T. Sryvalin"
+}

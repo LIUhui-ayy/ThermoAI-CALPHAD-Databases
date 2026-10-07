@@ -1,0 +1,28 @@
+{
+    "components": ["MG", "SI", "VA"],
+    "phases": ["LIQUID", "MG2SI", "DIAMOND_A4"],
+    "conditions": {
+      "P": 101325,
+      "T": [1229.8173, 1282.80102, 1326.20576, 1352.2486, 1359.13349, 1352.54794, 1336.38342, 1300.46226, 1250.47197,
+      1251.37, 1333.38999, 1370.20918]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+      [["LIQUID", ["SI"], [0.15112]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.19823]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.25480]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.30814]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.33256]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.36696]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.40384]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.45269]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.49929]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.55213]], ["DIAMOND_A4", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.60372]], ["DIAMOND_A4", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.63114]], ["DIAMOND_A4", ["SI"], [null]]]
+    ],
+    "reference": "Gef1968",
+    "bibtex": "R. Geffken, E. Miller, Trans. TMS-AIME 242 (1968) 2323-2328.",
+    "comment": "LIQUID phase boundary with MG2SI in MG-Si system"
+  }

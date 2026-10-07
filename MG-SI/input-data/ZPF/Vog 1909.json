@@ -1,0 +1,29 @@
+ {
+    "components": ["MG", "SI", "VA"],
+    "phases": ["LIQUID", "MG2SI", "DIAMOND_A4"],
+    "conditions": {
+      "P": 101325,
+      "T": [926.28346, 931.67164,  1201.67905, 1254.36343, 1325.00838, 1375.59736, 1352.54794, 1340.27488, 1322.61364, 1262.14635,
+      1259.15292, 1421.09750, 1607.28887]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+      [["LIQUID", ["SI"], [0.01729]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.00956]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.13318]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.16932]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.22490]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.33680]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.38590]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.43499]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.46415]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.48459]], ["MG2SI", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.56434]], ["DIAMOND_A4", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.66927]], ["DIAMOND_A4", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.88659]], ["DIAMOND_A4", ["SI"], [null]]]
+    ],
+    "reference": "Vog1909",
+    "bibtex": "R. Vogel, Z. Anorg. Chem. 61 (1909) 46-63.",
+    "comment": "LIQUID phase boundary with MG2SI in MG-Si system"
+  }

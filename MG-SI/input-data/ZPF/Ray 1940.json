@@ -1,0 +1,19 @@
+{
+    "components": ["MG", "SI", "VA"],
+    "phases": ["LIQUID", "HCP_A3"],
+    "conditions": {
+      "P": 101325,
+      "T": [919.51955, 917.16726, 914.77059, 912.74378]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+      [["LIQUID", ["SI"], [0.002337]], ["HCP_A3", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.0046803]], ["HCP_A3", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.0069744]], ["HCP_A3", ["SI"], [null]]],
+      [["LIQUID", ["SI"], [0.0092684]], ["HCP_A3", ["SI"], [null]]]
+    ],
+    "reference": "Ray1940",
+    "bibtex": "G.V. Raynor, J. Inst. Met. 66 (1940) 403-426.",
+    "comment": "LIQUID phase boundary with HCP_A3 in MG-Si system"
+  }

@@ -1,0 +1,48 @@
+{
+  "components": ["MG", "SI", "VA"],
+  "phases": ["LIQUID", "HCP_A3", "MG2SI", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T":
+    [
+      922.2269, 921.28006, 920.08173, 918.92778, 917.3152, 915.21442, 914.43032, 978.06981, 1006.80674, 1041.53053, 1098.40571, 1161.26774,
+      1206.1692, 1247.77788, 1299.26488, 1328.89984, 1344.76503, 1344.76503, 1349.25517, 1350.1532, 1345.36371, 1326.5051, 1286.39313, 1227.42256,
+      1260.64963, 1348.65648, 1466.59764, 1608.48624
+    ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.0009192]], ["HCP_A3", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0017167]], ["HCP_A3", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0035086]], ["HCP_A3", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0051037]], ["HCP_A3", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0068070]], ["HCP_A3", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0087466]], ["HCP_A3", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0102432]], ["HCP_A3", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.02427]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.03374]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.04321]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.06838]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.10053]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.13019]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.16483]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.22166]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.26776]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.29792]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.31686]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.33082]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.34228]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.36745]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.41730]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.46839]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.52073]], ["MG2SI", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.56733]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.62117]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.72385]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.89307]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "Sch1977",
+  "bibtex": "E. Schürmann, A. Fischer, Giessereiforschung 29 (1977) 107-113.",
+  "comment": "LIQUID phase boundary with HCP_A3 in MG-Si system"
+}

@@ -1,0 +1,22 @@
+{
+  "components": ["MG", "SI", "VA"],
+  "refdata": "SGTE91",
+  "phases": {
+    "LIQUID": {
+      "sublattice_model": [["MG", "SI"]],
+      "sublattice_site_ratios": [1]
+    },
+    "HCP_A3": {
+      "sublattice_model": [["MG", "SI"], ["VA"]],
+      "sublattice_site_ratios": [1, 1]
+    },
+    "MG2SI": {
+      "sublattice_model": [["MG"], ["SI"]],
+      "sublattice_site_ratios": [2, 1]
+    },
+    "DIAMOND_A4": {
+      "sublattice_model": [["SI"]],
+      "sublattice_site_ratios": [1, 1]
+    }
+  }
+}

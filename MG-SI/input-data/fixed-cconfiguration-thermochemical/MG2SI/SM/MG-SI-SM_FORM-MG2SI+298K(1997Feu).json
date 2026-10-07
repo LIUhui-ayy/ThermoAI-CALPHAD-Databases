@@ -1,0 +1,17 @@
+{
+  "components": ["MG", "SI","VA"],
+  "phases": ["MG2SI"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [2, 1],
+    "sublattice_configurations": [["MG", "SI"]]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 300
+  },
+  "output": "SM_FORM",
+  "values": [[[-8.04]]],
+  "reference": "1997Feu",
+  "comment": "DFT"
+}
