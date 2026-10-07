@@ -1,0 +1,23 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [1581.84308, 1430.32726, 1301.06005, 1212.34726, 1134.89959, 1099.13284, 1080.5454, 990.7061]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.8033301]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.5927364]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.49326]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.4424635]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.3823191]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.2936017]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.2419233]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.2041787]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "mateik (2011)",
+  "bibtex": "I. V. Mateiko; M. A. Shevchenko; N. V. Kotova; V. S. Sudavtsova. (2011). The thermodynamic properties of Al-Si system melts. , 85(2), 164-170.",
+  "comment": "LIQUID phase boundary with DIAMOND_A4 in Al-Si system"
+}

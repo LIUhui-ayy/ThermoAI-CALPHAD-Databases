@@ -1,0 +1,25 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [878.15, 893.15, 957.15, 1075.15, 1188.15, 1278.15, 1380.15, 1473.15, 1545.15, 1640.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.077]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.145]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.194]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.292]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.39]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.49]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.59]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.692]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.794]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.896]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "matsuyama (1934)  ",
+  "bibtex": "Matsuyama K. Ternary diagram of the Al-Cu-Si system[J]. Kinzoku No Kenkyu, 1934, 11: 461-490.",
+  "comment": "Phase boundary data for LIQUID with FCC_A1 and DIAMOND_A4 in Al-Si system"
+}

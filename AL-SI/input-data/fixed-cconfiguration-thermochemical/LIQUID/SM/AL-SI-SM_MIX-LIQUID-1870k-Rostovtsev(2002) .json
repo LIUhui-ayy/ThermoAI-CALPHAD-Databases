@@ -1,0 +1,60 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.94783, 0.05217]],
+      [[0.89644, 0.10356]],
+      [[0.84946, 0.15054]],
+      [[0.79807, 0.20193]],
+      [[0.74987, 0.25013]],
+      [[0.70068, 0.29932]],
+      [[0.64611, 0.35389]],
+      [[0.59913, 0.40087]],
+      [[0.54676, 0.45324]],
+      [[0.397, 0.603]],
+      [[0.35002, 0.64998]],
+      [[0.29643, 0.70357]],
+      [[0.25042, 0.74958]],
+      [[0.20026, 0.79974]],
+      [[0.14765, 0.85235]],
+      [[0.09846, 0.90154]],
+      [[0.0505, 0.9495]]
+    ],
+    "sublattice_configurations": [
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1873
+  },
+  "excluded_model_contributions": ["idmix", "mag"],
+  "output": "SM_MIX",
+  "values": 
+  [[[
+    0.19479, 0.38228, 0.57534, 0.75563, 0.93167, 1.09888, 1.26085, 1.26641, 
+    1.12342, 0.93724, 0.88161, 0.78868, 0.68986, 0.57403, 0.43366, 0.30375, 0.16043
+  ]]],
+  "reference": "S.T. Rostovtsev, S.I. Khitrik, Activity of components in silicon-aluminum, silicon-manganese, and silicon-chromium alloys, Izv. Vyssh. Ucheb. Zaved. Met. 14 (1971) 61-63.alorimetry, 2002, 70(3):975-983.",
+  "comment": "EST",
+  "tags": ["EST"]
+}

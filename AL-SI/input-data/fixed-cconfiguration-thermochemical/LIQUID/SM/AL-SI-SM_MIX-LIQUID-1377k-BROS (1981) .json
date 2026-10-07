@@ -1,0 +1,60 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.89794, 0.10206]],
+      [[0.86421, 0.13579]],
+      [[0.82737, 0.17263]],
+      [[0.81087, 0.18913]],
+      [[0.75735, 0.24265]],
+      [[0.71666, 0.28334]],
+      [[0.70401, 0.29599]],
+      [[0.6734, 0.3266]],
+      [[0.66332, 0.33668]],
+      [[0.63582, 0.36418]],
+      [[0.61694, 0.38306]],
+      [[0.5933, 0.4067]],
+      [[0.57533, 0.42467]],
+      [[0.55957, 0.44043]],
+      [[0.53611, 0.46389]],
+      [[0.52987, 0.47013]],
+      [[0.48497, 0.51503]]
+    ],
+    "sublattice_configurations": [
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1377
+  },
+  "excluded_model_contributions": ["idmix", "mag"],
+  "output": "SM_MIX",
+  "values": 
+  [[[
+    0.37508, 0.50843, 0.60732, 0.69716, 0.79887, 0.93448, 0.91753, 0.98251, 
+    0.93900, 0.99946, 0.98534, 0.98760, 0.96330, 0.95143, 0.87402, 0.88815, 0.85198
+  ]]],
+  "reference": "J. P. Bros, H. Eslami and P. Gaune, Ber. Bunsenges, Thermodynamics of aluminum-silicon and aluminum-germanium-silicon liquid alloys: enthalpies of formation by high temperature calorimetry,85 (1981) 333.",
+  "comment": "EST",
+  "tags": ["EST"]
+}

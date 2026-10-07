@@ -1,0 +1,42 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.89629, 0.10371]],
+      [[0.79896, 0.20104]],
+      [[0.69704, 0.30296]],
+      [[0.59806, 0.40194]],
+      [[0.49761, 0.50239]],
+      [[0.3924, 0.6076]],
+      [[0.2936, 0.7064]],
+      [[0.19535, 0.80465]],
+      [[0.09564, 0.90436]],
+      [[0.0, 1.0]]
+    ],
+    "sublattice_configurations": [
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1870
+  },
+  "excluded_model_contributions": ["idmix", "mag"],
+  "output": "SM_MIX",
+  "values": [[[0.46718, 1.01415, 1.50292, 1.74025, 1.77415, 1.53457, 1.10852, 0.50843, 0.17223, 0.00045]]],
+  "reference": "V. S. Sudavtzova, G. I. Batalin and V. S. Tutevich, Ukr. Khim. Zh., 52 (1986) 1029.",
+  "comment": "EST",
+  "tags": ["EST"]
+}

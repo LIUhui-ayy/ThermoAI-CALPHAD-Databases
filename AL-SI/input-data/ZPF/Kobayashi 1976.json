@@ -1,0 +1,18 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": [894.15, 878.65, 861.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.058]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.077]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.096]], ["FCC_A1", ["SI"], [null]]]
+  ],
+  "reference": "kobayashi (1976)",
+  "bibtex": "Kobayashi K, Shingu P H, Kanbara H, et al. The Role of the Primary Phase on Eutectic Solidification of Al-Si Alloys[J]. Transactions of the Japan Institute of Metals, 1976, 17(9): 545-550.",
+  "comment": "Phase boundary data for LIQUID and FCC_A1 in Al-Si system"
+}

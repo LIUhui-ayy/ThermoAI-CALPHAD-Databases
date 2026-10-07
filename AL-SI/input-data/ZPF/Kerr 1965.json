@@ -1,0 +1,18 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [555.15, 588.15, 600.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0005]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0008]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.001]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "kerr (1965)",
+  "bibtex": "Kerr H W, Bell J A, Winegard W C. Solidification of binary and ternary eutectics[J]. 1965.",
+  "comment": "Solubility of silicon in aluminum (FCC_A1) phase boundary data"
+}

@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [660.15, 708.15, 723.15, 799.15, 834.15, 840.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0015]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0034]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0041]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0092]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0132]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0136]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "borchers (1942)",
+  "bibtex": "Borchers V H, Otto H J. Dilatometric investigation of the solubility of silicon in aluminum[J]. Aluminium, 1942, 24: 219-221.",
+  "comment": "Solubility of silicon in aluminum (FCC_A1) phase boundary data"
+}

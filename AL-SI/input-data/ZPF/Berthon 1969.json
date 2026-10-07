@@ -1,0 +1,28 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [1160.15, 1075.15, 1039.15, 1015.15, 982.15, 955.15, 905.15, 875.15, 853.15, 871.15, 890.15, 901.15, 915.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.351]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.291]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.262]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.242]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.213]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.193]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.164]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.145]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.116]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.096]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.068]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.048]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.02]], ["FCC_A1", ["SI"], [null]]]
+  ],
+  "reference": "berthon (1969)",
+  "bibtex": "O. Berthon, G. Petot-Ervas, C. Petot, and P. Desre, \"Thermodynamics of AI-Si Alloys Containing from 2 to 35 at.% Si\", C. R. Acad. Sei. Paris, 268, C1939-C1942 (1969) in French. (Thermo: Experimental)",
+  "comment": "Phase boundary data for LIQUID with DIAMOND_A4 and FCC_A1 in Al-Si system"
+}

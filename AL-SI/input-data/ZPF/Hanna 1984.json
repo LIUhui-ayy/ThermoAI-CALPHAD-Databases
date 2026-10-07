@@ -1,0 +1,23 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": 
+    [
+     850.15, 850.15,
+     850.15, 850.15
+    ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.015]], ["LIQUID", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.125]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.125]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["DIAMOND_A4", ["SI"], [1.0]], ["LIQUID", ["SI"], [null]]]
+],
+  "reference": "hanna (1984)",
+  "bibtex": "Hanna M D, Lu S Z, Hellawell A. Modification in the aluminum silicon system[J]. Metallurgical Transactions A, 1984, 15(3): 459-469.",
+  "comment": "Eutectic point data for FCC_A1 and LIQUID phases in Al-Si system"
+}

@@ -1,0 +1,17 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": [896.15, 881.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0072]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.011]], ["LIQUID", ["SI"], [null]]]
+  ],
+  "reference": "otani (1926)",
+  "bibtex": "Ôtani B. Silumin and its structure[J]. J. Inst. Metals, 1926, 36: 243-267.",
+  "comment": "FCC_A1 phase boundary with LIQUID in Al-Si system"
+}

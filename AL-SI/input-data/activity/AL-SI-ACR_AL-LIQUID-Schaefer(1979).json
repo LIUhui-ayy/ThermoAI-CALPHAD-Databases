@@ -1,0 +1,24 @@
+{
+  "components": ["AL", "SI","VA"],
+  "phases": ["LIQUID"],
+  "reference_state": 
+  {
+    "phases": ["LIQUID"],
+    "conditions": 
+    {
+      "P": 101325,
+      "T": 1163,
+      "X_SI": 0.0
+    }
+  },
+  "conditions": 
+  {
+    "P": 101325,
+    "T": 1163,
+    "X_SI": [0.01113, 0.0502, 0.10186, 0.15078, 0.20108, 0.25137, 0.30075, 0.35196]
+  },
+  "output": "ACR_AL",
+  "values": [[[0.96833, 0.93152, 0.87217, 0.80331, 0.7208, 0.63956, 0.55499, 0.46677]]],
+  "reference": "Schaefer (1979)",
+  "bibtex": "S. C. Schaefer and N. A. Gokcen, High Temp. Science, Thermodynamic properties of liquid aluminum-nickel and aluminum-silicon,11 (1979) 31."
+}

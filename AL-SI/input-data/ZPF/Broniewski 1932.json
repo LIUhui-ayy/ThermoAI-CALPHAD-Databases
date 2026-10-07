@@ -1,0 +1,20 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [1684.07401, 1675.34354, 1554.8068, 1330.63098, 1131.23843]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.9744154]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.9689477]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.7114379]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.511074]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.3384013]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "broniewski (1932)",
+  "bibtex": "Broniewski W, Smialowski M. On the Al-Si Alloys[J]. Rev. Met, 1932, 29: 542-552.",
+  "comment": "LIQUID phase boundary with DIAMOND_A4 in Al-Si system"
+}

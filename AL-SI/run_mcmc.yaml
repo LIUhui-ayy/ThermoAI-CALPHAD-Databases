@@ -1,0 +1,32 @@
+system:
+  phase_models: phase_models.json      # path to the phases file
+  datasets: input-data  # path to the directory containing input data
+  tags:
+    dft:
+      excluded_model_contributions: ['idmix', 'mag']
+    estimated-entropy:
+      excluded_model_contributions: ['idmix', 'mag']
+output:
+  output_db: Al-Si-ESPEI-MCMC.tdb               # what to name the output TDB file
+  verbosity: 2                            # levels of verbosity. Choose 0, 1 or 2 for Warnings, Info, or Debug
+  tracefile: trace-ESPEI-MCMC.npy
+  probfile:  lnprob-ESPEI-MCMC.npy
+  logfile:   mcmc-log-ESPEI-MCMC.txt
+mcmc:
+  iterations: 1000
+  save_interval: 1                 
+  input_db: AL-SI-Initial.tdb
+  scheduler: dask
+  cores: 16
+  chains_per_parameter: 2
+  prior:
+    name: normal
+    loc_relative: 1.0    
+    scale_relative: 0.5 
+  data_weights:
+    zpf: 20
+    # HM: 2
+    # SM: 1
+    # ACR: 1
+
+    

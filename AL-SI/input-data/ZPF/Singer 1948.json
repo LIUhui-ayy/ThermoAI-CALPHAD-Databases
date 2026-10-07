@@ -1,0 +1,30 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": 
+    [
+         881.15, 908.15, 924.15, 925.15, 927.15, 928.15,
+          917.15, 914.15, 894.15, 877.15, 851.15
+    ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.078]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0394]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0144]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0115]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0093]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0052]], ["FCC_A1", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.00096]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0019]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0067]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0106]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0154]], ["LIQUID", ["SI"], [null]]]
+  ],
+  "reference": "singer (1948)",
+  "bibtex": "Singer A R E, Cottrell S A, Jennings P H. Properties of the aluminium-silicon alloys at temperatures in the region of the solidus[M]. Aluminium Development Association, 1948.",
+  "comment": "Phase boundary data for LIQUID and FCC_A1 in Al-Si system"
+}

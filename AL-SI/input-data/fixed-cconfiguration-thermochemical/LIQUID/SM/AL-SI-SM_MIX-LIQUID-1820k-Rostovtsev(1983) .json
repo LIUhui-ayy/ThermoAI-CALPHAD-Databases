@@ -1,0 +1,40 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.90183, 0.09817]],
+      [[0.79905, 0.20095]],
+      [[0.70068, 0.29932]],
+      [[0.59913, 0.40087]],
+      [[0.49953, 0.50047]],
+      [[0.40018, 0.59982]],
+      [[0.30181, 0.69819]],
+      [[0.20124, 0.79876]],
+      [[0.10189, 0.89811]]
+    ],
+    "sublattice_configurations": [
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1820
+  },
+  "excluded_model_contributions": ["idmix", "mag"],
+  "output": "SM_MIX",
+  "values": [[[0.40094, 0.71997, 0.93462, 1.08481, 1.11753, 1.06747, 0.93593, 0.71702, 0.40224]]],
+  "reference": "N.V. Gizenko, B.I. Emlin, S.N. Kilesso, A.L. Zav'yalov, Heats of formation of molten aluminum-silicon alloys, Izv. Akad. Nauk SSR Met. 3 (1983) 3-35.",
+  "comment": "EST",
+  "tags": ["EST"]
+}

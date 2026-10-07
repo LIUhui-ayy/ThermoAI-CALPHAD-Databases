@@ -1,0 +1,18 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": [896.15, 895.15, 865.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0035]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.007]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0106]], ["LIQUID", ["SI"], [null]]]
+  ],
+  "reference": "dix (1928)",
+  "bibtex": "Dix E H, Heath A C. Equilibrium relations in aluminum-silicon and aluminum-iron-silicon alloys of high purity[J]. Trans. AIME, 1928, 78: 164-194.",
+  "comment": "FCC_A1 phase boundary with LIQUID in Al-Si system"
+}

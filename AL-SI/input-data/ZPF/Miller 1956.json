@@ -1,0 +1,22 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["DIAMOND_A4", "LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": [1653.15, 1623.15, 1573.15, 1523.15, 1473.15, 1373.15, 1323.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["DIAMOND_A4", ["AL"], [0.00013]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.00033]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.00031]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.00015]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.00027]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000075]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000147]], ["LIQUID", ["AL"], [null]]]
+  ],
+  "reference": "miller (1956)",
+  "bibtex": "Miller R C, Savage A. Diffusion of aluminum in single crystal silicon[J]. Journal of Applied Physics, 1956, 27(12): 1430-1432.",
+  "comment": "DIAMOND_A4 phase boundary with LIQUID in Al-Si system (Al content in DIAMOND_A4)"
+}

@@ -1,0 +1,19 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [673.15, 773.15, 798.15, 838.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0024]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0072]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0096]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0125]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "drits (1968)",
+  "bibtex": "Drits M E, Kadaner E S, Kuz'mina V I. Solubility of silicon and zirconium in aluminium[J]. Izv. Akad. Nauk SSR Met, 1968, 1: 170-175.",
+  "comment": "Solubility of silicon in aluminum (FCC_A1) phase boundary data"
+}

@@ -1,0 +1,24 @@
+{
+  "components": ["AL", "SI","VA"],
+  "phases": ["LIQUID"],
+  "reference_state":
+  {
+    "phases": ["LIQUID"],
+    "conditions": 
+    {
+      "P": 101325,
+      "T": 1473,
+      "X_SI": 0.0
+    }
+  },
+  "conditions": 
+  {
+    "P": 101325,
+    "T": 1473,
+    "X_SI": [0.00139, 0.09957, 0.20245, 0.30441, 0.40076, 0.50089]
+  },
+  "output": "ACR_AL",
+  "values": [[[0.99736, 0.89359, 0.75999, 0.59625, 0.50739, 0.41838]]],
+  "reference": "Chatillon (1975)",
+  "bibtex": "C. Chatillon and M. Allibert, High Temp.-High Pres., 7 (1975) 583."
+}

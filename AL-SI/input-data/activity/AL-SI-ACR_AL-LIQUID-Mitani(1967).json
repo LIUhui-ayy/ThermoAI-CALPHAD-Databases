@@ -1,0 +1,24 @@
+{
+  "components": ["AL", "SI","VA"],
+  "phases": ["LIQUID"],
+  "reference_state": 
+  {
+    "phases": ["LIQUID"],
+    "conditions": 
+    {
+      "P": 101325,
+      "T": 1473,
+      "X_SI": 0.0
+    }
+  },
+  "conditions": 
+  {
+    "P": 101325,
+    "T": 1473,
+    "X_SI": [0.10839, 0.17828, 0.29605, 0.37189, 0.4837]
+  },
+  "output": "ACR_AL",
+  "values": [[[0.84266, 0.77808, 0.65115, 0.51898, 0.44615]]],
+  "reference": "Mitani (1967)",
+  "bibtex": "H. Mitani and H. Nagai, J. Jpn. Inst. Met., Determination of the equilibrium constant of 2 aluminum (liquid) + aluminum chloride (gas) = 3 AlCl (gas) reaction and activities of aluminum and silicon in aluminum-silicon binary alloys,31 (1967) 1296."
+}

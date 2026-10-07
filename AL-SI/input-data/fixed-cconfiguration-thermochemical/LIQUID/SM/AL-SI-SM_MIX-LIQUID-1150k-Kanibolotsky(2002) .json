@@ -1,0 +1,32 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.7, 0.3]],
+      [[0.75, 0.25]],
+      [[0.8, 0.2]],
+      [[0.85, 0.15]],
+      [[0.9, 0.1]]
+    ],
+    "sublattice_configurations": [
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1150
+  },
+  "excluded_model_contributions": ["idmix", "mag"],
+  "output": "SM_MIX",
+  "values": [[[1.37, 0.77, 0.41, 0.19, 0.06]]],
+  "reference": "Kanibolotsky D S , Bieloborodova O A , Kotova N V ,et al.Thermodynamic properties of liquid Al-Si and Al-Cu alloys[J].Journal of Thermal Analysis and Calorimetry, 2002, 70(3):975-983.",
+  "comment": "EST",
+  "tags": ["EST"]
+}

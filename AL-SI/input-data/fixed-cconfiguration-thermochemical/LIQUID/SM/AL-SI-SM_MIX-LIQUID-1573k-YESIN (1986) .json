@@ -1,0 +1,48 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+      [[0.94651, 0.05349]],
+      [[0.89721, 0.10279]],
+      [[0.84772, 0.15228]],
+      [[0.79896, 0.20104]],
+      [[0.74562, 0.25438]],
+      [[0.69851, 0.30149]],
+      [[0.64755, 0.35245]],
+      [[0.59806, 0.40194]],
+      [[0.54784, 0.45216]],
+      [[0.49376, 0.50624]],
+      [[0.44666, 0.55334]]
+    ],
+    "sublattice_configurations": [
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]],
+      [["AL", "SI"]]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1573
+  },
+  "excluded_model_contributions": ["idmix", "mag"],
+  "output": "SM_MIX",
+  "values": 
+  [[[
+    0.28072, 0.55703, 0.81300, 1.07687, 1.31420, 1.53174, 1.71369, 1.87303, 
+    1.97700, 2.03520, 2.01825
+  ]]],
+  "reference": "Yu. O. Yesin, E. L. Demina, S. E. Demin and P. S. Popel, Zh. Fiz. Khimii, 60 (1986) 1791.",
+  "comment": "EST",
+  "tags": ["EST"]
+}

@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [843.15, 823.15, 773.15, 723.15, 673.15, 623.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0136]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0124]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0078]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0046]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0029]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0017]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "dix (1928)",
+  "bibtex": "Dix E H, Heath A C. Equilibrium relations in aluminum-silicon and aluminum-iron-silicon alloys of high purity[J]. Trans. AIME, 1928, 78: 164-194.",
+  "comment": "Solubility of silicon in aluminum (FCC_A1) phase boundary data"
+}

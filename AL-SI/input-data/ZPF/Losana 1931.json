@@ -1,0 +1,20 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [493.15, 608.15, 768.15, 813.15, 849.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0012]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0023]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0059]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0105]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0168]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "losana (1931)",
+  "bibtex": "Losana L, Stratta R. Solid solubility of silicon in aluminum in the solid state[J]. Italian. Metall. Ital, 1931, 23: 193-197.",
+  "comment": "Solubility of silicon in aluminum (FCC_A1) phase boundary data"
+}

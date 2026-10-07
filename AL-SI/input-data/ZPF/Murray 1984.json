@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [1679.0047, 1655.62959, 1632.25447, 1500.45261, 1437.64959, 1225.8654]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.9860563]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.9458424]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.8819941]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.7169055]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.5927364]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.3923726]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "murray (1984)",
+  "bibtex": "Murray J L, McAlister A J. The Al-Si (aluminum-silicon) system[J]. Bulletin of alloy phase diagrams, 1984, 5(1): 74-84.",
+  "comment": "LIQUID phase boundary with DIAMOND_A4 in Al-Si system"
+}

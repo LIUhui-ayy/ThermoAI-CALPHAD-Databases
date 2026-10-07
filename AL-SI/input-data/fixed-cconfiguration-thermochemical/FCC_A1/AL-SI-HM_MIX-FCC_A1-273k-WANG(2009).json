@@ -1,0 +1,39 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_occupancies": [
+      [[0.93603, 0.06397], 1],
+      [[0.87148, 0.12852], 1],
+      [[0.81081, 0.18919], 1],
+      [[0.74701, 0.25299], 1],
+      [[0.49659, 0.50341], 1],
+      [[0.24783, 0.75217], 1],
+      [[0.18237, 0.81763], 1],
+      [[0.1217, 0.8783], 1],
+      [[0.06029, 0.93971], 1]
+    ],
+    "sublattice_configurations": [
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"]]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 300
+  },
+  "output": "HM_MIX",
+  "values": 
+  [[[-1201.38, -1794.15, -2166.87, -2832.61, -3561.22, -3022.34, -2458.76, -2104, -1462.96]]],
+  "reference": "Wang A, Zhou L, Kong Y, et al. First-principles study of binary special quasirandom structures for the AlCu, AlSi, CuSi, and MgSi systems[J]. CALPHAD - PERGAMON PRESS, 2009.",
+  "comment": "DFT",
+  "tags": ["DFT"]
+}

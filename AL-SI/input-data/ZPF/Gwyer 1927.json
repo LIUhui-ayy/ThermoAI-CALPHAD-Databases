@@ -1,0 +1,20 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [848.15, 821.15, 795.15, 723.15, 573.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.015]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0114]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0088]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0035]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0014]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "gwyer (1927)",
+  "bibtex": "Gwyer A G C, Phillips H W L. The constitution of alloys of aluminum with silicon and iron[J]. J. Inst. Met, 1927, 38: 29-83.",
+  "comment": "Solubility of silicon in aluminum (FCC_A1) phase boundary data"
+}

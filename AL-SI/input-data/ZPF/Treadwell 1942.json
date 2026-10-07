@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": [573.15, 623.15, 673.15, 723.15, 773.15, 823.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0021]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0028]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0037]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.005]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0077]], ["DIAMOND_A4", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0115]], ["DIAMOND_A4", ["SI"], [null]]]
+  ],
+  "reference": "treadwell (1942)",
+  "bibtex": "Treadwell W D, Walti R. Solubility of silicon in aluminum[J]. Helv. Chim. Acta, 1942, 25: 1154-1163.",
+  "comment": "Solubility of silicon in aluminum (FCC_A1) phase boundary data"
+}

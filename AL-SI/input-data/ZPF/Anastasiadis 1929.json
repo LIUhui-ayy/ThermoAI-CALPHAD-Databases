@@ -1,0 +1,31 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "LIQUID","DIAMOND_A4"],
+  "conditions": {
+    "P": 101325,
+    "T": 
+    [
+     908.15, 896.15, 883.15, 868.15,
+    1477.15, 1449.15, 1408.15, 1351.15, 1206.15, 1099.15, 1025.15, 984.15
+    ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.005]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0076]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0097]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0122]], ["LIQUID", ["SI"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000171]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000163]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000127]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000118]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000059]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000027]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000021]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000012]], ["LIQUID", ["AL"], [null]]]
+  ],
+  "reference": "anastasiadis (1929)",
+  "bibtex": "Anastasiadis L. Aluminum-Silicon Solid Solutions[J]. Z. anorg. Chem., 1929, 179: 145-154.",
+  "comment": "FCC_A1 phase boundary with LIQUID in Al-Si system"
+}

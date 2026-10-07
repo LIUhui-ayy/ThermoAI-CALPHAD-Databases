@@ -1,0 +1,29 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["DIAMOND_A4"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_occupancies": 
+    [
+      [[0.75, 0.25], 1],
+      [[0.5, 0.5], 1],
+      [[0.25, 0.75], 1]
+    ],
+    "sublattice_configurations": 
+    [
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"],
+      [["AL", "SI"], "VA"]
+    ]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 300
+  },
+  "output": "SM_MIX",
+  "values": [[[1.778543333, 2.74295, 2.037943333]]],
+  "reference": "Shin D. Thermodynamic properties of solid solutions from special quasirandom structures and CALPHAD modeling: Application to Al-Cu-Mg-Si and Hf-Si-O[J]. 2007.",
+  "comment": "EST",
+  "tags": ["EST"]
+}

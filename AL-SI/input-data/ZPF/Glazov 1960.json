@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["FCC_A1", "LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": [925.15, 913.15, 890.15, 873.15, 863.15, 852.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["FCC_A1", ["SI"], [0.0006]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0029]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0074]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0096]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0118]], ["LIQUID", ["SI"], [null]]],
+    [["FCC_A1", ["SI"], [0.0144]], ["LIQUID", ["SI"], [null]]]
+  ],
+  "reference": "glazov (1960)",
+  "bibtex": "Glazov V M, Liu C Y. Investigation of Separate and Joint Solubilities of Al and Sb in Si[J]. Izv. Akad. Nauk SSSR, Otd. Tekh. Nauk, Met. Toplivo, 1960, 4: 150-155.",
+  "comment": "FCC_A1 phase boundary with LIQUID in Al-Si system"
+}

@@ -1,0 +1,21 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["LIQUID", "FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": [871.15, 854.15, 851.15, 857.15, 883.15, 903.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["LIQUID", ["SI"], [0.1323]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.1226]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.1179]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.1079]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0771]], ["FCC_A1", ["SI"], [null]]],
+    [["LIQUID", ["SI"], [0.0472]], ["FCC_A1", ["SI"], [null]]]
+  ],
+  "reference": "craighead (1955)",
+  "bibtex": "Craighead C M, Cawthorne E W, Jaffee R I. Solution rate of solid aluminum in molten Al-Si alloy[J]. JOM, 1955, 7(1): 81-87.",
+  "comment": "Phase boundary data for LIQUID and FCC_A1 in Al-Si system"
+}

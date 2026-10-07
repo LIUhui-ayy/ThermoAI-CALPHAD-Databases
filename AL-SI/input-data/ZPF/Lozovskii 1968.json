@@ -1,0 +1,25 @@
+{
+  "components": ["AL", "SI", "VA"],
+  "phases": ["DIAMOND_A4", "LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": [1513.15, 1466.15, 1446.15, 1373.15, 1328.15, 1250.15, 1207.15, 1188.15, 1129.15, 1010.15]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values": [
+    [["DIAMOND_A4", ["AL"], [0.000226]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000194]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.00024]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000176]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000116]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000106]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000066]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000062]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000036]], ["LIQUID", ["AL"], [null]]],
+    [["DIAMOND_A4", ["AL"], [0.000012]], ["LIQUID", ["AL"], [null]]]
+  ],
+  "reference": "lozovskii (1968)",
+  "bibtex": "Lozovskii V N, Udyanskaya A I. Solubility of aluminum in silicon single crystals[J]. Inorg. Mater, 1968, 4: 1030-1031.",
+  "comment": "DIAMOND_A4 phase boundary with LIQUID in Al-Si system (Al content in DIAMOND_A4)"
+}
